@@ -1,0 +1,2 @@
+server: bokeh-server --ip=0.0.0.0
+plot: while [ "$(curl -s http://localhost:5006/bokeh/ping)" != "pong" ]; do sleep 1; done && python population_server.py

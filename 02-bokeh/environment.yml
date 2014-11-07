@@ -1,0 +1,6 @@
+name: bokeh-population
+dependencies:
+  - bokeh
+  - pip
+  - pip:
+    - honcho
